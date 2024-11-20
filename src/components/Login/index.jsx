@@ -1,9 +1,8 @@
 import './index.css';
-import api from '../api'
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 import {MyContext} from '../Context'
 
-import { useState, useEffect, useContext } from "react";
+import { useState, useContext } from "react";
 import { Link } from 'react-router-dom';
 
 export default function Login() {
