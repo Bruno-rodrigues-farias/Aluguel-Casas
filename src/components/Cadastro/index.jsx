@@ -1,10 +1,9 @@
 import './index.css';
-import api from '../api'
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 import {MyContext} from '../Context'
 import { Link } from 'react-router-dom';
 
-import { useState, useEffect, useContext } from "react";
+import { useState, useContext } from "react";
 
 export default function Cadastro() {
 
