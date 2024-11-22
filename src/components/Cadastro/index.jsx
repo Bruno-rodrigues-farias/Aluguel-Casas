@@ -1,4 +1,4 @@
-import './index.css';
+import './cadastro.css';
 
 import {MyContext} from '../Context'
 import { Link } from 'react-router-dom';
